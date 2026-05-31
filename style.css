@@ -1,0 +1,24 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+    outline: 1px solid red;
+}
+
+.set-button
+{
+    padding: 10px;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    gap: 10px;
+}
