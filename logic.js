@@ -16,7 +16,11 @@ function createGrid(numberOfGrids)
             square.style.outline = "1px solid white";
 
             square.addEventListener('mouseenter',(e) => {
-                e.target.style.backgroundColor = "cyan";
+                const R = Math.random()*255;
+                const G = Math.random()*255;
+                const B = Math.random()*255;
+                
+                e.target.style.backgroundColor = `rgb(${R}, ${G}, ${B})`;
             });
 
 
