@@ -13,10 +13,10 @@ function createGrid(numberOfGrids)
         {
             const square = document.createElement('div');
             square.style.flex = "1";
-            square.style.outline = "1px solid red";
+            square.style.outline = "1px solid white";
 
             square.addEventListener('mouseenter',(e) => {
-                e.target.style.backgroundColor = "Black";
+                e.target.style.backgroundColor = "cyan";
             });
 
 

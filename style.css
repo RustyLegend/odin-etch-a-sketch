@@ -4,7 +4,7 @@
     flex-direction: column;
     height: 600px;
     width: 600px;
-    outline: 1px solid red;
+    outline: 1px solid white;
 }
 
 .set-button
@@ -22,4 +22,5 @@ body
     min-height: 100vh;
     min-width: 100vw;
     gap: 10px;
+    background-color: rgb(51, 51, 51);
 }
